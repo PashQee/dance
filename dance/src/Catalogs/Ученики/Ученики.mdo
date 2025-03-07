@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c820e3a3-09de-40f0-86d7-c79e62cdbb92">
+  <producedTypes>
+    <objectType typeId="0c4f2916-f111-41a6-afb1-74b8ff14a660" valueTypeId="feb1698e-b4f3-4eee-aa20-3d5c66650514"/>
+    <refType typeId="7dff5170-0828-4f43-99fd-bde76b3b627c" valueTypeId="eed25721-8bc2-42f2-911e-30d837f2e5d4"/>
+    <selectionType typeId="6fa8e577-a57c-457f-a863-7b05977d1213" valueTypeId="95d850d7-2aa8-4d94-9885-0aaa176fa38c"/>
+    <listType typeId="32823ec1-1dce-4088-992c-b901997b93e1" valueTypeId="de6207a9-4a69-4b20-8b5e-e89358d51f48"/>
+    <managerType typeId="a840d2ff-cb62-425a-9075-2d4849737ca9" valueTypeId="9c492ae7-004c-4de1-840d-71f8aaf6e019"/>
+  </producedTypes>
+  <name>Ученики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ученики</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Ученики.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Ученики.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="606f6b48-138d-46e4-8990-3795a2b57440">
+    <name>ДатаРождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата рождения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
