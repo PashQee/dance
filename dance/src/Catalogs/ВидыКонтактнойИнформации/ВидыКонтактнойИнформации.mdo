@@ -171,6 +171,35 @@
         </code>
       </content>
     </items>
+    <items id="5283ead8-1de6-4bbd-ab32-7bb990ee06a5">
+      <name>СправочникУченики</name>
+      <description>Справочник ученики</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="df5b8146-2413-405d-af54-9139883282cd">
+        <name>КонтактУчеников</name>
+        <description>Контакт учеников</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="cf087715-d4ac-401e-94e6-56be088ae522">
+        <name>Телеграмм</name>
+        <description>Телеграмм</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="8adf206c-3ee4-49af-b2dc-71f753e0d8df">
+        <name>ТелефонРодителей</name>
+        <description>Телефон родителей</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
   </predefined>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.ВидыКонтактнойИнформации.Form.ФормаЭлемента</defaultObjectForm>
