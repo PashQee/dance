@@ -73,10 +73,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="3862658f-8794-40af-a440-215258ffb73b">
-      <name>Представлениие</name>
+      <name>Представление</name>
       <synonym>
         <key>ru</key>
-        <value>Представлениие</value>
+        <value>Представление</value>
       </synonym>
       <type>
         <types>String</types>
@@ -94,6 +94,21 @@
       <synonym>
         <key>ru</key>
         <value>Значения полей</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="715e6af6-6ca3-48ea-b035-0f71c29d7a48">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
       </synonym>
       <type>
         <types>String</types>
