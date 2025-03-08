@@ -9,6 +9,6 @@
     <value>Владелец с ограничением по наборам значений доступа документ</value>
   </synonym>
   <type>
-    <types>DocumentObject.Документ1</types>
+    <types>DocumentObject.ПокупкаАбонемента</types>
   </type>
 </mdclass:DefinedType>

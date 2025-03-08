@@ -7,9 +7,9 @@
     <listType typeId="b75a88d5-b390-42d8-8f64-7fdb1e5b5f51" valueTypeId="438605c2-0511-461f-9244-28f4cf913517"/>
     <managerType typeId="b0a43e3b-fa20-4a8f-a5f7-c1da5346cde8" valueTypeId="34de062c-0781-4804-a0d5-6861445c0d8a"/>
   </producedTypes>
-  <name>Документ1</name>
+  <name>ПокупкаАбонемента</name>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.Документ1.StandardAttribute.Number</inputByString>
+  <inputByString>Document.ПокупкаАбонемента.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>

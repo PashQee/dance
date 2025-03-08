@@ -7,5 +7,5 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Document.Документ1</content>
+  <content>Document.ПокупкаАбонемента</content>
 </mdclass:Subsystem>
