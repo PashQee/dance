@@ -156,6 +156,21 @@
         </code>
       </content>
     </items>
+    <items id="ee7c111b-3695-4f86-af57-60c41e0b2c0a">
+      <name>СправочникЗалы</name>
+      <description>Контактная информация Залов</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="1ae56943-a7b8-459d-90ef-f386b0922727">
+        <name>АдрессЗала</name>
+        <description>Адресс Зала</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
   </predefined>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.ВидыКонтактнойИнформации.Form.ФормаЭлемента</defaultObjectForm>
