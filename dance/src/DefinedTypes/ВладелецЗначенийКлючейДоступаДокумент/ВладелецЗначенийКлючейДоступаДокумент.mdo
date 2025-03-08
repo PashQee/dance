@@ -9,6 +9,6 @@
     <value>Владелец значений ключей доступа документ</value>
   </synonym>
   <type>
-    <types>DocumentObject.ПокупкаАбонемента</types>
+    <types>DocumentObject.Занятие</types>
   </type>
 </mdclass:DefinedType>

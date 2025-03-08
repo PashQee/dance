@@ -1092,7 +1092,7 @@
   <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
   <catalogs>Catalog.ШаблоныСообщений</catalogs>
   <catalogs>Catalog.ШаблоныСообщенийПрисоединенныеФайлы</catalogs>
-  <documents>Document.ПокупкаАбонемента</documents>
+  <documents>Document.Занятие</documents>
   <enums>Enum.ВариантыПериода</enums>
   <enums>Enum.ВариантыПредставленияПериода</enums>
   <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>
