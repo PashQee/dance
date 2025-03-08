@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0421b67e-ed26-491d-ab98-ec59002ed4ce">
+  <name>СтандартныеПодсистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стандартные подсистемы</value>
+  </synonym>
+  <subsystems>АдресныйКлассификатор</subsystems>
+  <subsystems>АнализЖурналаРегистрации</subsystems>
+  <subsystems>БазоваяФункциональность</subsystems>
+  <subsystems>ГрафикиРаботы</subsystems>
+  <subsystems>ВариантыОтчетов</subsystems>
+  <subsystems>ГрупповоеИзменениеОбъектов</subsystems>
+  <subsystems>ДатыЗапретаИзменения</subsystems>
+  <subsystems>ДополнительныеОтчетыИОбработки</subsystems>
+  <subsystems>ЗавершениеРаботыПользователей</subsystems>
+  <subsystems>ЗапретРедактированияРеквизитовОбъектов</subsystems>
+  <subsystems>ИнформацияПриЗапуске</subsystems>
+  <subsystems>КалендарныеГрафики</subsystems>
+  <subsystems>КонструкторФормул</subsystems>
+  <subsystems>КонтактнаяИнформация</subsystems>
+  <subsystems>НастройкаПорядкаЭлементов</subsystems>
+  <subsystems>НастройкиПрограммы</subsystems>
+  <subsystems>ОбновлениеВерсииИБ</subsystems>
+  <subsystems>ОбновлениеКонфигурации</subsystems>
+  <subsystems>ОтчетОДвиженияхДокумента</subsystems>
+  <subsystems>ОценкаПроизводительности</subsystems>
+  <subsystems>Печать</subsystems>
+  <subsystems>ПодключаемыеКоманды</subsystems>
+  <subsystems>ПоискИУдалениеДублей</subsystems>
+  <subsystems>Пользователи</subsystems>
+  <subsystems>ПрофилиБезопасности</subsystems>
+  <subsystems>РаботаСПочтовымиСообщениями</subsystems>
+  <subsystems>РассылкаОтчетов</subsystems>
+  <subsystems>РегламентныеЗадания</subsystems>
+  <subsystems>СклонениеПредставленийОбъектов</subsystems>
+  <subsystems>УдалениеПомеченныхОбъектов</subsystems>
+  <subsystems>УправлениеДоступом</subsystems>
+  <subsystems>ШаблоныСообщений</subsystems>
+</mdclass:Subsystem>
