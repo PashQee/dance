@@ -40,6 +40,5 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Люди</subsystems>
-  <constants>Constant.Константа</constants>
   <catalogs>Catalog.Ученики</catalogs>
 </mdclass:Configuration>
