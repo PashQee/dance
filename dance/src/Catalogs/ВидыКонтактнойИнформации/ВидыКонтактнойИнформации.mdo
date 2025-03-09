@@ -179,8 +179,8 @@
       </code>
       <isFolder>true</isFolder>
       <content id="df5b8146-2413-405d-af54-9139883282cd">
-        <name>КонтактУчеников</name>
-        <description>Контакт учеников</description>
+        <name>ТелефонУченика</name>
+        <description>Телефон ученика</description>
         <code xsi:type="core:StringValue">
           <value></value>
         </code>
