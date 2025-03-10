@@ -165,7 +165,7 @@
       <isFolder>true</isFolder>
       <content id="1ae56943-a7b8-459d-90ef-f386b0922727">
         <name>АдрессЗала</name>
-        <description>Адресс Зала</description>
+        <description>Адрес Зала</description>
         <code xsi:type="core:StringValue">
           <value></value>
         </code>

@@ -239,10 +239,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="8c26c35c-9513-4233-8246-12476c9f6836">
-      <name>НомераТелефонаБезКодов</name>
+      <name>НомерТелефонаБезКодов</name>
       <synonym>
         <key>ru</key>
-        <value>Номера телефона без кодов</value>
+        <value>Номер телефона без кодов</value>
       </synonym>
       <type>
         <types>String</types>
