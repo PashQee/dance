@@ -8,4 +8,5 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Ученики</content>
+  <content>Catalog.Группа</content>
 </mdclass:Subsystem>
