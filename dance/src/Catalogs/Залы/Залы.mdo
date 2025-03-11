@@ -205,10 +205,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="4b42fbb0-e6cb-4868-bf74-ca4ebe6c4329">
-      <name>НомерТелефонов</name>
+      <name>НомерТелефона</name>
       <synonym>
         <key>ru</key>
-        <value>Номер телефонов</value>
+        <value>Номер телефона</value>
       </synonym>
       <type>
         <types>String</types>
@@ -222,10 +222,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="ef513d3a-9916-4c90-af8d-79500504d8b8">
-      <name>НомераТелефоновБезКодов</name>
+      <name>НомерТелефонаБезКодов</name>
       <synonym>
         <key>ru</key>
-        <value>Номера телефонов без кодов</value>
+        <value>Номер телефона без кодов</value>
       </synonym>
       <type>
         <types>String</types>
