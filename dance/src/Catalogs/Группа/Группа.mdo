@@ -40,11 +40,11 @@
       <key>ru</key>
       <value>Ученики</value>
     </synonym>
-    <attributes uuid="b7b8cdcc-aad9-4ed7-a341-466fc4f4a3ab">
-      <name>Ученики</name>
+    <attributes uuid="40b67462-e94f-428f-a17d-4e35fd470918">
+      <name>Ученик</name>
       <synonym>
         <key>ru</key>
-        <value>Ученики</value>
+        <value>Ученик</value>
       </synonym>
       <type>
         <types>CatalogRef.Ученики</types>
