@@ -9,4 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.Занятие</content>
   <content>Catalog.Залы</content>
+  <content>Catalog.Календари</content>
 </mdclass:Subsystem>

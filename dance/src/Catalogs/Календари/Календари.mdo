@@ -10,7 +10,7 @@
   <name>Календари</name>
   <synonym>
     <key>ru</key>
-    <value>Графики работы</value>
+    <value>Расписание занятий</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Календари.StandardAttribute.Description</inputByString>

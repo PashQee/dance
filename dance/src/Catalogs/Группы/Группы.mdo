@@ -7,14 +7,14 @@
     <listType typeId="5262c728-8378-4e12-99d7-4ef8316c26a0" valueTypeId="feb29672-f3fb-4bbb-98cd-93e78f332327"/>
     <managerType typeId="c2b58fa2-2004-420b-8c34-4d0c029089d6" valueTypeId="695166c3-7bc4-4e12-8326-bedbf4eb3217"/>
   </producedTypes>
-  <name>Группа</name>
+  <name>Группы</name>
   <synonym>
     <key>ru</key>
-    <value>Группа</value>
+    <value>Группы</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Группа.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.Группа.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Группы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Группы.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -30,6 +30,52 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Группы.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="15131ed7-cfad-4bd1-a0cf-9f38ecbf2fc6">
+    <name>Тренер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тренер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6a9b8606-c324-47a4-ad73-87825803f3c8">
+    <name>Зал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Залы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9d3bb934-272b-4d2c-99b7-9560c061493f">
+    <name>Расписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расписание</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Календари</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="158f0d1d-515d-434c-99bf-7a751bc96fd8">
     <producedTypes>
       <objectType typeId="a24899f2-ef44-4d3c-9b7d-3f283fbb8982" valueTypeId="91082826-741e-4d28-acfb-c19c6be52936"/>
@@ -55,4 +101,13 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <forms uuid="ebd860be-d362-4f24-b256-766ab6b0a044">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

@@ -48,7 +48,7 @@
       <value>Группа</value>
     </synonym>
     <type>
-      <types>CatalogRef.Группа</types>
+      <types>CatalogRef.Группы</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
