@@ -1145,6 +1145,7 @@
   <dataProcessors>DataProcessor.ЗаполнениеГрафиковРаботы</dataProcessors>
   <dataProcessors>DataProcessor.ЗаполнениеКалендарныхГрафиков</dataProcessors>
   <dataProcessors>DataProcessor.ИнформацияПриЗапуске</dataProcessors>
+  <dataProcessors>DataProcessor.КалендарьТренировок</dataProcessors>
   <dataProcessors>DataProcessor.КонструкторФормул</dataProcessors>
   <dataProcessors>DataProcessor.НастройкаРазрешенийНаИспользованиеВнешнихРесурсов</dataProcessors>
   <dataProcessors>DataProcessor.НастройкиПользователей</dataProcessors>

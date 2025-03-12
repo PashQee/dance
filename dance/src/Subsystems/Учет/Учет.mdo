@@ -10,4 +10,5 @@
   <content>Document.Занятие</content>
   <content>Catalog.Залы</content>
   <content>Catalog.Календари</content>
+  <content>DataProcessor.КалендарьТренировок</content>
 </mdclass:Subsystem>
