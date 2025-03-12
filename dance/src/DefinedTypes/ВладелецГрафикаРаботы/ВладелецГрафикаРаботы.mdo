@@ -9,9 +9,6 @@
     <value>Владелец графика работы</value>
   </synonym>
   <type>
-    <types>String</types>
-    <stringQualifiers>
-      <length>10</length>
-    </stringQualifiers>
+    <types>CatalogRef.Группы</types>
   </type>
 </mdclass:DefinedType>
