@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e06bc536-7289-486d-b24d-f1299d0e5e13">
+  <producedTypes>
+    <objectType typeId="690e2715-fca4-4368-9ded-637112a5dcd4" valueTypeId="0541b81c-1419-408e-b205-07f5b4e22c5f"/>
+    <refType typeId="d8cc0985-8477-492e-bb96-c96cc1f78907" valueTypeId="8cf08f92-4758-42ae-822c-32142233a565"/>
+    <selectionType typeId="efbb0b5f-9ddf-4d9a-aa66-93a7e1bf71b1" valueTypeId="e060f865-d345-42b0-89f1-3c5db2c9e950"/>
+    <listType typeId="c83c75e5-2573-4af8-9967-7194d6d47e33" valueTypeId="db46071b-9e4b-4fc2-98df-178fef8076ee"/>
+    <managerType typeId="c488ea3c-fd97-4042-ab93-1bd177cbd663" valueTypeId="d0cb9343-0553-48e3-92b5-4fbf1734422a"/>
+  </producedTypes>
+  <name>ТанцевальныеЭлементы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Танцевальные элементы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТанцевальныеЭлементы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ТанцевальныеЭлементы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
