@@ -24,6 +24,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.Занятие.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>InformationRegister.ПосещенияУчеников</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="e861209b-b37f-4cfc-8db6-6d001b0834da">
