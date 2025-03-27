@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22d8b954-163b-449b-baad-3c98f90e0194">
+  <producedTypes>
+    <selectionType typeId="831c6602-3af9-4af7-9828-937c7bfb748a" valueTypeId="fa7ff3ad-96fb-454f-ad43-321559ea370f"/>
+    <listType typeId="e93a2f73-32ec-4c0b-90ca-a0a23b5b2706" valueTypeId="62300bc5-0a87-482c-a271-6d987af5c72c"/>
+    <managerType typeId="c5d3f3be-f3a3-4be5-9081-58beffffe724" valueTypeId="8c55e853-d2d2-46b7-a808-e7a9574a7b11"/>
+    <recordSetType typeId="41cb0b8a-856c-4267-96c0-378ba467322a" valueTypeId="958e8a08-f211-4a19-be31-51444eadaa37"/>
+    <recordKeyType typeId="686eb6a8-8302-4e1f-b998-ebd01d55b2ca" valueTypeId="c6e889dd-545c-4a75-821e-43c504ec3492"/>
+    <recordType typeId="e50deb84-582c-46b5-81df-88806352c2c1" valueTypeId="992c3ae6-50c9-4076-b9d2-87115f3e3ee1"/>
+    <recordManagerType typeId="1fa919ab-c8b5-4626-82d1-8688bece10da" valueTypeId="1e3de62b-0936-4b0a-8f82-fe7641740dc8"/>
+  </producedTypes>
+  <name>Телега_Сообщения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телега сообщения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="489d35b1-096d-4206-8c45-3a8008f45d24">
+    <name>ИдентификаторКанала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор канала</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>128</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="53e829dd-3df2-4995-8415-559a7d9fd9bb">
+    <name>ИдентификаторПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор пользователя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>128</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

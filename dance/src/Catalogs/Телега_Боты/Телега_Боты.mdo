@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0fe6a35-2ed7-4051-b142-1a5b01588173">
+  <producedTypes>
+    <objectType typeId="56d10b56-0f37-4d27-ad3c-6f023a68b1b6" valueTypeId="261a35e6-d4a6-4cd2-8dbc-dfc22412d3e1"/>
+    <refType typeId="ccc34046-0ada-4be5-9069-ec2ca8d0452c" valueTypeId="659f4d33-d642-49a3-ab5c-1993a084bf68"/>
+    <selectionType typeId="c54d8684-db7a-41b5-927d-938f101384c1" valueTypeId="cd060d56-9c35-4ef9-ab0f-afbbef284c8f"/>
+    <listType typeId="daa086ff-78ab-4cec-bada-c261530e1cbb" valueTypeId="ee605e37-5d26-42ed-90df-b6ccf9fa6691"/>
+    <managerType typeId="bfa07789-77d5-4957-8a38-8cb4f51c1528" valueTypeId="56c58855-7ea2-4dfa-a5f8-521c92e5b6ca"/>
+  </producedTypes>
+  <name>Телега_Боты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телега боты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Телега_Боты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Телега_Боты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="5bf17c42-5e44-4186-acc0-0c15328fde11">
+    <name>Токен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>128</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

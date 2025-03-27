@@ -617,6 +617,7 @@
   <commonModules>CommonModule.КалендарныеГрафики</commonModules>
   <commonModules>CommonModule.КалендарныеГрафикиПереопределяемый</commonModules>
   <commonModules>CommonModule.КалендарныеГрафикиСлужебный</commonModules>
+  <commonModules>CommonModule.КоннекторHTTP</commonModules>
   <commonModules>CommonModule.КонструкторФормул</commonModules>
   <commonModules>CommonModule.КонструкторФормулВызовСервера</commonModules>
   <commonModules>CommonModule.КонструкторФормулКлиент</commonModules>
@@ -1089,6 +1090,7 @@
   <catalogs>Catalog.ПрофилиКлючевыхОпераций</catalogs>
   <catalogs>Catalog.РассылкиОтчетов</catalogs>
   <catalogs>Catalog.СтраныМира</catalogs>
+  <catalogs>Catalog.Телега_Боты</catalogs>
   <catalogs>Catalog.Ученики</catalogs>
   <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
   <catalogs>Catalog.ШаблоныСообщений</catalogs>
@@ -1158,6 +1160,7 @@
   <dataProcessors>DataProcessor.РегламентныеИФоновыеЗадания</dataProcessors>
   <dataProcessors>DataProcessor.РезультатыОбновленияПрограммы</dataProcessors>
   <dataProcessors>DataProcessor.РекомендацияПоПовышениюСкоростиРаботы</dataProcessors>
+  <dataProcessors>DataProcessor.Телега_Настройки</dataProcessors>
   <dataProcessors>DataProcessor.УдалениеПомеченныхОбъектов</dataProcessors>
   <dataProcessors>DataProcessor.УстановкаОбновлений</dataProcessors>
   <informationRegisters>InformationRegister.АдминистративнаяИерархия</informationRegisters>
@@ -1236,6 +1239,7 @@
   <informationRegisters>InformationRegister.СоставыГруппПользователей</informationRegisters>
   <informationRegisters>InformationRegister.СостоянияРассылокОтчетов</informationRegisters>
   <informationRegisters>InformationRegister.ТаблицыГруппДоступа</informationRegisters>
+  <informationRegisters>InformationRegister.Телега_Сообщения</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьЗамерыВремени3</informationRegisters>
   <informationRegisters>InformationRegister.УдаляемыеОбъекты</informationRegisters>
   <informationRegisters>InformationRegister.УровниСокращенийАдресныхСведений</informationRegisters>

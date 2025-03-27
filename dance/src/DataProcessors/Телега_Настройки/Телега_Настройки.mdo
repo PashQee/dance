@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fbeab7f0-1c79-4ea4-8c6f-c2ea82d5325e">
+  <producedTypes>
+    <objectType typeId="451a8c09-72f1-430d-b153-32ea09ec90d0" valueTypeId="c158796e-915a-402e-96d2-67240f17acc0"/>
+    <managerType typeId="dd91241d-1535-498d-bd7f-626f4b09e1db" valueTypeId="d3f6db03-cc39-49b9-aa9b-7e00921bf16c"/>
+  </producedTypes>
+  <name>Телега_Настройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телега настройки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>
