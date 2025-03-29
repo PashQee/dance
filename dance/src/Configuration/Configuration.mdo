@@ -1219,6 +1219,7 @@
   <informationRegisters>InformationRegister.ПериодыНерабочихДнейКалендаря</informationRegisters>
   <informationRegisters>InformationRegister.ПользовательскиеМакетыПечати</informationRegisters>
   <informationRegisters>InformationRegister.ПользовательскиеНастройкиДоступаКОбработкам</informationRegisters>
+  <informationRegisters>InformationRegister.ПосещенияУчеников</informationRegisters>
   <informationRegisters>InformationRegister.ПоставляемыеМакетыПечати</informationRegisters>
   <informationRegisters>InformationRegister.ПотокиОбновления</informationRegisters>
   <informationRegisters>InformationRegister.ПраваРолей</informationRegisters>

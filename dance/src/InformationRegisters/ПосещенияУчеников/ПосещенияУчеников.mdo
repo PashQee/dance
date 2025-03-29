@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae946ca0-1c2e-4aee-9e52-1ae3890c299a">
+  <producedTypes>
+    <selectionType typeId="946c1daf-9b8f-4d0c-b0d4-4d0ac1e098e2" valueTypeId="464adadd-9012-4efc-88c8-947445a0b1e3"/>
+    <listType typeId="2a3fe4d7-bcd4-40fe-8e16-f755921b80d0" valueTypeId="3600382c-4c8a-48a6-a2e2-90aed6a1569c"/>
+    <managerType typeId="d1628890-af0d-4c0b-8af0-ce2df65290d1" valueTypeId="5fe4f87e-6b2c-4eb6-ae62-28bebb2850d4"/>
+    <recordSetType typeId="70e47879-bbba-4d7a-a545-31d9a3897699" valueTypeId="4c3970c5-407c-40ac-9d0b-c5064d6e0c33"/>
+    <recordKeyType typeId="4182f28e-03e4-49f7-88fa-768828069122" valueTypeId="83ab8cbb-7154-4b42-b874-8bb89675ff29"/>
+    <recordType typeId="5633030b-4eca-4bb6-b6ec-5779315fb701" valueTypeId="2ec03996-f69a-433f-b13e-42071e4e93ba"/>
+    <recordManagerType typeId="7b8a8155-5005-4fe1-83f9-bee7f8b5f805" valueTypeId="1c3cbdbf-3d6a-4612-9c6e-a18d07bd81bd"/>
+  </producedTypes>
+  <name>ПосещенияУчеников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Посещения учеников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="4784e46f-8c5c-4c22-9ada-46e273e5fc09">
+    <name>Ученик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ученик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Ученики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
