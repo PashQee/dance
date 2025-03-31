@@ -1130,6 +1130,7 @@
   <reports>Report.ИспользуемыеВнешниеРесурсы</reports>
   <reports>Report.КонтрольРассылкиОтчетов</reports>
   <reports>Report.МестаИспользованияСсылок</reports>
+  <reports>Report.ОтчетПосещений</reports>
   <reports>Report.ОценкаПроизводительности</reports>
   <reports>Report.ПраваДоступа</reports>
   <reports>Report.ПраваРолей</reports>

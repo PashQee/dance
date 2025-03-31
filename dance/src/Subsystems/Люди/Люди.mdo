@@ -9,4 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Ученики</content>
   <content>Catalog.Группы</content>
+  <content>Report.ОтчетПосещений</content>
 </mdclass:Subsystem>
