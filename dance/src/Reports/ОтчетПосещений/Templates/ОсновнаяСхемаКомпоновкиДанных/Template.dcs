@@ -20,30 +20,82 @@
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Дата</dataPath>
-			<field>Дата</field>
+			<dataPath>Регистратор</dataPath>
+			<field>Регистратор</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Занятие</dataPath>
-			<field>Занятие</field>
+			<dataPath>Период</dataPath>
+			<field>Период</field>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	ПосещенияУчеников.Ученик КАК Ученик,
-	ПосещенияУчеников.Период КАК Дата,
-	ПосещенияУчеников.Регистратор КАК Занятие
+	ПосещенияУчеников.Регистратор КАК Регистратор,
+	ПосещенияУчеников.Период
 {ВЫБРАТЬ
 	Ученик.*,
-	Дата,
-	Занятие.*}
+	Регистратор.*}
 ИЗ
 	РегистрСведений.ПосещенияУчеников КАК ПосещенияУчеников
-
+ГДЕ
+    ПосещенияУчеников.Период МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода
+    
 УПОРЯДОЧИТЬ ПО
 	Ученик,
-	Дата,
-	Занятие</query>
+	Регистратор</query>
 	</dataSet>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;ПериодОтчета.ДатаНачала	</expression>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>КонецПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конец периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;ПериодОтчета.ДатаОкончания</expression>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>ПериодОтчета</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период отчета</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+	</parameter>
 	<settingsVariant>
 		<dcsset:name>Занятия</dcsset:name>
 		<dcsset:presentation xsi:type="v8:LocalStringType">
@@ -64,20 +116,31 @@
 					<dcsset:field>Занятие</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ПериодОтчета</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+						<v8:startDate>2025-03-31T17:09:58</v8:startDate>
+						<v8:endDate>2025-03-31T17:09:58</v8:endDate>
+					</dcscor:value>
+					<dcsset:userSettingID>c74aa62d-49d8-425a-903e-8370d0587fb7</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
 				<dcsset:groupItems>
-					<dcsset:item xsi:type="dcsset:GroupItemField">
-						<dcsset:field>Дата</dcsset:field>
-						<dcsset:groupType>Items</dcsset:groupType>
-						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
-					</dcsset:item>
 					<dcsset:item xsi:type="dcsset:GroupItemField">
 						<dcsset:field>Ученик</dcsset:field>
 						<dcsset:groupType>Items</dcsset:groupType>
 						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
 					</dcsset:item>
 					<dcsset:item xsi:type="dcsset:GroupItemField">
-						<dcsset:field>Занятие</dcsset:field>
+						<dcsset:field>Период</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Регистратор</dcsset:field>
 						<dcsset:groupType>Items</dcsset:groupType>
 						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
 					</dcsset:item>
