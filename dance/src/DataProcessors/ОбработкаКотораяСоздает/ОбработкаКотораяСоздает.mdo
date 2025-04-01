@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a71ee466-712b-4df3-a2fc-781988fea903">
+  <producedTypes>
+    <objectType typeId="da90d624-7ae5-4e12-8a0d-5357af3a7035" valueTypeId="ec910f93-244b-4613-9d5a-f51d9a3ccf25"/>
+    <managerType typeId="d97c8394-a427-4daa-bb8a-c1b59ec5ab90" valueTypeId="ed882c4c-cd36-41ed-84a7-069a74b27a2a"/>
+  </producedTypes>
+  <name>ОбработкаКотораяСоздает</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка которая создает</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбработкаКотораяСоздает.Form.Форма</defaultForm>
+  <tabularSections uuid="3a34a338-c14e-4042-b556-b01ff93ae82a">
+    <producedTypes>
+      <objectType typeId="8682554b-9375-44f5-aa62-0967610df555" valueTypeId="efac3052-431b-472e-b6b1-2341fe5b41b1"/>
+      <rowType typeId="ec00e57e-a7fb-43dd-99ae-808a580622b0" valueTypeId="c22f7a2f-62d1-4e79-aa1c-a26b45c16c67"/>
+    </producedTypes>
+    <name>ФИОПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФИО Пользователя</value>
+    </synonym>
+    <attributes uuid="a39b8411-1b3c-4fd0-8445-651c2fffb194">
+      <name>ФИО</name>
+      <synonym>
+        <key>ru</key>
+        <value>ФИО</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="3919f505-0880-43d3-9e95-e36b74d881bc">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
