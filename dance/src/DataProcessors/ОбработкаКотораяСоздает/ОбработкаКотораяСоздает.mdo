@@ -22,10 +22,10 @@
       <value>ФИО Пользователя</value>
     </synonym>
     <attributes uuid="a39b8411-1b3c-4fd0-8445-651c2fffb194">
-      <name>ФИО</name>
+      <name>Пользователь</name>
       <synonym>
         <key>ru</key>
-        <value>ФИО</value>
+        <value>Пользователь</value>
       </synonym>
       <type>
         <types>String</types>

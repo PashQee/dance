@@ -53,19 +53,19 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ФИОПользователяФИО</name>
-      <id>99</id>
+      <name>ФИОПользователяПользователь</name>
+      <id>120</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ФИОПользователя.ФИО</segments>
+        <segments>Объект.ФИОПользователя.Пользователь</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ФИОПользователяФИОРасширеннаяПодсказка</name>
-        <id>101</id>
+        <name>ФИОПользователяПользовательРасширеннаяПодсказка</name>
+        <id>122</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -74,48 +74,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ФИОПользователяФИОКонтекстноеМеню</name>
-        <id>100</id>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>InputField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
-      <name>ФИОПользователяГруппа</name>
-      <id>107</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ФИОПользователя.Группа</segments>
-      </dataPath>
-      <extendedTooltip>
-        <name>ФИОПользователяГруппаРасширеннаяПодсказка</name>
-        <id>109</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>ФИОПользователяГруппаКонтекстноеМеню</name>
-        <id>108</id>
+        <name>ФИОПользователяПользовательКонтекстноеМеню</name>
+        <id>121</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
@@ -156,6 +116,46 @@
       <contextMenu>
         <name>ФИОПользователяУченикКонтекстноеМеню</name>
         <id>105</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ФИОПользователяГруппа</name>
+      <id>107</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.ФИОПользователя.Группа</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ФИОПользователяГруппаРасширеннаяПодсказка</name>
+        <id>109</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ФИОПользователяГруппаКонтекстноеМеню</name>
+        <id>108</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
@@ -290,16 +290,16 @@
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
     <items xsi:type="form:Button">
-      <name>ФормаЗаполнитьВсеДанные</name>
-      <id>112</id>
+      <name>ЗаполнитьПользователя</name>
+      <id>114</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаЗаполнитьВсеДанныеРасширеннаяПодсказка</name>
-        <id>113</id>
+        <name>ЗаполнитьПользователяРасширеннаяПодсказка</name>
+        <id>115</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -307,7 +307,57 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.ЗаполнитьВсеДанные</commandName>
+      <commandName>Form.Command.ЗаполнитьПользователя</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <items xsi:type="form:Button">
+      <name>ФормаСоздатьГруппу</name>
+      <id>123</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаСоздатьГруппуРасширеннаяПодсказка</name>
+        <id>124</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.СоздатьГруппу</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <items xsi:type="form:Button">
+      <name>ФормаЗаполнитьУчеников</name>
+      <id>118</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаЗаполнитьУчениковРасширеннаяПодсказка</name>
+        <id>119</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.ЗаполнитьУчеников</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -344,10 +394,10 @@
     <main>true</main>
   </attributes>
   <formCommands>
-    <name>ЗаполнитьФИО</name>
+    <name>ЗаполнитьПользователя</name>
     <title>
       <key>ru</key>
-      <value>Заполнить ФИО</value>
+      <value>Заполнить пользователя</value>
     </title>
     <id>3</id>
     <use>
@@ -355,7 +405,7 @@
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ЗаполнитьФИО</name>
+        <name>ЗаполнитьПользователя</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
@@ -378,35 +428,18 @@
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>ЗаполнитьГруппу</name>
+    <name>СоздатьГруппу</name>
     <title>
       <key>ru</key>
-      <value>Заполнить группу</value>
+      <value>Создать группу</value>
     </title>
-    <id>5</id>
+    <id>8</id>
     <use>
       <common>true</common>
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ЗаполнитьГруппу</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ЗаполнитьВсеДанные</name>
-    <title>
-      <key>ru</key>
-      <value>Заполнить все данные</value>
-    </title>
-    <id>6</id>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ЗаполнитьВсеДанные</name>
+        <name>СоздатьГруппу</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
