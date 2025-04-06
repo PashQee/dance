@@ -11,6 +11,18 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ОбработкаКотораяСоздает.Form.Форма</defaultForm>
+  <attributes uuid="be27d3b2-0a60-4234-ba0e-2d55f8c57f7f">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>ValueList</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <tabularSections uuid="3a34a338-c14e-4042-b556-b01ff93ae82a">
     <producedTypes>
       <objectType typeId="8682554b-9375-44f5-aa62-0967610df555" valueTypeId="efac3052-431b-472e-b6b1-2341fe5b41b1"/>
@@ -28,13 +40,11 @@
         <value>Пользователь</value>
       </synonym>
       <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>20</length>
-        </stringQualifiers>
+        <types>CatalogRef.Пользователи</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
     <attributes uuid="c5293dda-d010-4150-9644-4b1da85acc97">
       <name>Группа</name>
@@ -43,13 +53,11 @@
         <value>Группа</value>
       </synonym>
       <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>20</length>
-        </stringQualifiers>
+        <types>CatalogRef.Группы</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
     <attributes uuid="e1a5d92b-ce64-4654-a8b1-38aa2c64baaa">
       <name>Ученик</name>
@@ -58,13 +66,27 @@
         <value>Ученик</value>
       </synonym>
       <type>
+        <types>CatalogRef.Ученики</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="efa9b774-37c5-43a9-a3cd-5f0e97501dbf">
+      <name>СозданыеЭлементы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Созданые элементы</value>
+      </synonym>
+      <type>
         <types>String</types>
         <stringQualifiers>
-          <length>20</length>
+          <length>30</length>
         </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
   </tabularSections>
   <forms uuid="3919f505-0880-43d3-9e95-e36b74d881bc">
