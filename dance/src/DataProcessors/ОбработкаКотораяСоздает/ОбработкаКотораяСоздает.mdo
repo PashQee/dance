@@ -12,16 +12,44 @@
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ОбработкаКотораяСоздает.Form.Форма</defaultForm>
   <attributes uuid="be27d3b2-0a60-4234-ba0e-2d55f8c57f7f">
-    <name>Количество</name>
+    <name>КоличествоПользователей</name>
     <synonym>
       <key>ru</key>
-      <value>Количество</value>
+      <value>Количество пользователей</value>
     </synonym>
     <type>
-      <types>ValueList</types>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
     </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>9</value>
+    </maxValue>
+  </attributes>
+  <attributes uuid="a838997a-72ef-40a2-a45f-d3a3cdf7df85">
+    <name>КоличествоГрупп</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество групп</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>9</value>
+    </maxValue>
   </attributes>
   <tabularSections uuid="3a34a338-c14e-4042-b556-b01ff93ae82a">
     <producedTypes>
