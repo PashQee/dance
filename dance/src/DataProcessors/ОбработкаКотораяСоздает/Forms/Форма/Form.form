@@ -41,6 +41,12 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
+        <minValue xsi:type="core:NumberValue">
+          <value>1</value>
+        </minValue>
+        <maxValue xsi:type="core:NumberValue">
+          <value>9</value>
+        </maxValue>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -81,6 +87,12 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
+        <minValue xsi:type="core:NumberValue">
+          <value>1</value>
+        </minValue>
+        <maxValue xsi:type="core:NumberValue">
+          <value>9</value>
+        </maxValue>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -247,6 +259,46 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
+      <name>ФИОПользователяУченик</name>
+      <id>158</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.ФИОПользователя.Ученик</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ФИОПользователяУченикРасширеннаяПодсказка</name>
+        <id>160</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ФИОПользователяУченикКонтекстноеМеню</name>
+        <id>159</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
       <name>ФИОПользователяСозданыеЭлементы</name>
       <id>128</id>
       <visible>true</visible>
@@ -255,7 +307,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ФИОПользователя.СозданыеЭлементы</segments>
+        <segments>Объект.ФИОПользователя.Зал</segments>
       </dataPath>
       <extendedTooltip>
         <name>ФИОПользователяСозданыеЭлементыРасширеннаяПодсказка</name>
@@ -404,15 +456,19 @@
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
     <items xsi:type="form:Button">
-      <name>ЗаполнитьПользователя</name>
+      <name>СоздатьПользователя</name>
       <id>114</id>
+      <title>
+        <key>ru</key>
+        <value>Создать пользователя</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ЗаполнитьПользователяРасширеннаяПодсказка</name>
+        <name>СоздатьПользователяРасширеннаяПодсказка</name>
         <id>115</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -479,15 +535,19 @@
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
-      <name>ФормаЗаполнитьУчеников</name>
+      <name>СоздатьУчеников</name>
       <id>118</id>
+      <title>
+        <key>ru</key>
+        <value>Создать учеников</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаЗаполнитьУчениковРасширеннаяПодсказка</name>
+        <name>СоздатьУчениковРасширеннаяПодсказка</name>
         <id>119</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
