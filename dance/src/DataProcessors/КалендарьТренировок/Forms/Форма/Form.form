@@ -350,6 +350,21 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ОкноПодгрузки</name>
+    <title>
+      <key>ru</key>
+      <value>Окно подгрузки</value>
+    </title>
+    <id>5</id>
+    <valueType/>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ФормаДень</name>
     <title>
