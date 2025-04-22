@@ -34,69 +34,24 @@
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
-  <items xsi:type="form:FormGroup">
-    <name>Данные</name>
-    <id>21</id>
-    <items xsi:type="form:FormField">
-      <name>Фотография</name>
-      <id>23</id>
-      <title>
-        <key>ru</key>
-        <value>Фотография</value>
-      </title>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>АдресФотографии</segments>
-      </dataPath>
-      <extendedTooltip>
-        <name>ФотографияРасширеннаяПодсказка</name>
-        <id>25</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>ФотографияКонтекстноеМеню</name>
-        <id>24</id>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>PictureField</type>
-      <groupHorizontalAlign>Left</groupHorizontalAlign>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:ImageFieldExtInfo">
-        <maxWidth>5</maxWidth>
-        <maxHeight>5</maxHeight>
-        <horizontalStretch>true</horizontalStretch>
-        <verticalStretch>true</verticalStretch>
-        <border xsi:type="core:BorderDef">
-          <style>Single</style>
-          <width>1</width>
-        </border>
-        <fileDragMode>AsFileRef</fileDragMode>
-      </extInfo>
-    </items>
+  <items xsi:type="form:FormField">
+    <name>Фотография</name>
+    <id>23</id>
+    <title>
+      <key>ru</key>
+      <value>Фотография</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
-    <title>
-      <key>ru</key>
-      <value>Данные</value>
-    </title>
+    <dataPath xsi:type="form:DataPath">
+      <segments>АдресФотографии</segments>
+    </dataPath>
     <extendedTooltip>
-      <name>ДанныеРасширеннаяПодсказка</name>
-      <id>22</id>
+      <name>ФотографияРасширеннаяПодсказка</name>
+      <id>25</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -104,14 +59,132 @@
         <horizontalAlign>Left</horizontalAlign>
       </extInfo>
     </extendedTooltip>
-    <type>UsualGroup</type>
-    <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>HorizontalIfPossible</group>
-      <behavior>Auto</behavior>
-      <showLeftMargin>true</showLeftMargin>
-      <united>true</united>
-      <throughAlign>Auto</throughAlign>
-      <currentRowUse>Auto</currentRowUse>
+    <contextMenu>
+      <name>ФотографияКонтекстноеМеню</name>
+      <id>24</id>
+      <items xsi:type="form:Button">
+        <name>ФотографияКонтекстноеМенюВыбратьФотографию</name>
+        <id>34</id>
+        <title>
+          <key>ru</key>
+          <value>Выбрать фотографию</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ФотографияКонтекстноеМенюВыбратьФотографиюРасширеннаяПодсказка</name>
+          <id>35</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.ДобавитьФотографию</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:Button">
+        <name>ФотографияКонтекстноеМенюОчиститьФотографию</name>
+        <id>36</id>
+        <title>
+          <key>ru</key>
+          <value>Очистить фотографию</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ФотографияКонтекстноеМенюОчиститьФотографиюРасширеннаяПодсказка</name>
+          <id>37</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.ОчиститьФотографию</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>PictureField</type>
+    <groupHorizontalAlign>Left</groupHorizontalAlign>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:ImageFieldExtInfo">
+      <maxWidth>5</maxWidth>
+      <maxHeight>5</maxHeight>
+      <horizontalStretch>true</horizontalStretch>
+      <verticalStretch>true</verticalStretch>
+      <border xsi:type="core:BorderDef">
+        <style>Single</style>
+        <width>1</width>
+      </border>
+      <fileDragMode>AsFileRef</fileDragMode>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>ФИО</name>
+    <id>4</id>
+    <title>
+      <key>ru</key>
+      <value>Ф.И.О.</value>
+    </title>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Description</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>ФИОРасширеннаяПодсказка</name>
+      <id>6</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ФИОКонтекстноеМеню</name>
+      <id>5</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>InputField</type>
+    <groupHorizontalAlign>Left</groupHorizontalAlign>
+    <groupVerticalAlign>Center</groupVerticalAlign>
+    <editMode>EnterOnInput</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <width>22</width>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <wrap>true</wrap>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
@@ -146,51 +219,6 @@
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
     <extInfo xsi:type="form:InputFieldExtInfo">
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <wrap>true</wrap>
-      <chooseType>true</chooseType>
-      <typeDomainEnabled>true</typeDomainEnabled>
-      <textEdit>true</textEdit>
-    </extInfo>
-  </items>
-  <items xsi:type="form:FormField">
-    <name>ФИО</name>
-    <id>4</id>
-    <title>
-      <key>ru</key>
-      <value>Ф.И.О.</value>
-    </title>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Description</segments>
-    </dataPath>
-    <extendedTooltip>
-      <name>ФИОРасширеннаяПодсказка</name>
-      <id>6</id>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <contextMenu>
-      <name>ФИОКонтекстноеМеню</name>
-      <id>5</id>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>InputField</type>
-    <editMode>EnterOnInput</editMode>
-    <showInHeader>true</showInHeader>
-    <headerHorizontalAlign>Left</headerHorizontalAlign>
-    <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:InputFieldExtInfo">
-      <width>22</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <wrap>true</wrap>
