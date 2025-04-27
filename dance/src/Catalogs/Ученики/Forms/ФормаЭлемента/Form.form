@@ -473,6 +473,23 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ФотографияЗадана</name>
+    <title>
+      <key>ru</key>
+      <value>Фотография задана</value>
+    </title>
+    <id>3</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ДобавитьФотографию</name>
     <title>
@@ -523,6 +540,10 @@
     <handlers>
       <event>OnReadAtServer</event>
       <name>ПриЧтенииНаСервере</name>
+    </handlers>
+    <handlers>
+      <event>OnWriteAtServer</event>
+      <name>ПриЗаписиНаСервере</name>
     </handlers>
   </extInfo>
 </form:Form>
